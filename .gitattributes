@@ -1,0 +1,9 @@
+seq2seq/iwslt15/vocab.en filter=lfs diff=lfs merge=lfs -text
+seq2seq/iwslt15/vocab.vi filter=lfs diff=lfs merge=lfs -text
+seq2seq/iwslt15/train.en filter=lfs diff=lfs merge=lfs -text
+seq2seq/iwslt15/train.vi filter=lfs diff=lfs merge=lfs -text
+seq2seq/iwslt15/tst2012.en filter=lfs diff=lfs merge=lfs -text
+seq2seq/iwslt15/tst2012.vi filter=lfs diff=lfs merge=lfs -text
+seq2seq/iwslt15/tst2013.en filter=lfs diff=lfs merge=lfs -text
+seq2seq/iwslt15/tst2013.vi filter=lfs diff=lfs merge=lfs -text
+seq2seq/data/* filter=lfs diff=lfs merge=lfs -text
