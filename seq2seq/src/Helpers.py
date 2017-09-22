@@ -101,6 +101,7 @@ def create_train_model(
       skip_count_placeholder=skip_count_placeholder)
 
 
+
 class EvalModel(
     collections.namedtuple("EvalModel",
                            ("graph", "model", "src_file_placeholder",
